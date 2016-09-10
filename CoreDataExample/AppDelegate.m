@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "Customer.h"
+
 @interface AppDelegate ()
 
 @end
@@ -69,8 +71,45 @@
 //        
 //    }
     
+ 
+    //работа со сгенерированными объектами
     
+//    // Описание сущности
+//    NSEntityDescription *entityDescription = [NSEntityDescription entityForName:@"Customer" inManagedObjectContext:self.managedObjectContext];
+//    
+//    // Создание нового объекта
+//    Customer *customer = [[Customer alloc] initWithEntity:entityDescription insertIntoManagedObjectContext:self.managedObjectContext];
+//    
+//    
+//    // Установка значения атрибута
+//    customer.name = @"ООО Якодка";
+//    
+//    
+//    NSLog(@" customer.name = %@", customer.name);
+    
+    
+    //запись изменений в базу
+//    [self saveContext];
+    
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"Customer"];
 
+
+    @try {
+        NSArray *results = [self.managedObjectContext executeFetchRequest:fetchRequest error:nil];
+
+        for (NSManagedObject *item in results) {
+
+            NSLog(@"item name = %@", [item valueForKey:@"name"]);
+
+        }
+
+    } @catch (NSException *exception) {
+
+        NSLog(@"CoreData exception: %@", exception.description);
+        
+    }
+    
+    
     
     
     return YES;
