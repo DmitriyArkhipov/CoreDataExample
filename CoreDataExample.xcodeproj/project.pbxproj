@@ -14,6 +14,9 @@
 		817E86EE1D82BE74007E24E2 /* CoreDataExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 817E86EC1D82BE74007E24E2 /* CoreDataExample.xcdatamodeld */; };
 		817E86F01D82BE74007E24E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817E86EF1D82BE74007E24E2 /* Assets.xcassets */; };
 		817E86F31D82BE74007E24E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817E86F11D82BE74007E24E2 /* LaunchScreen.storyboard */; };
+		81F327D01D83C71700FBFEF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F327CF1D83C71700FBFEF3 /* Foundation.framework */; };
+		81F327D21D83C72200FBFEF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F327D11D83C72200FBFEF3 /* UIKit.framework */; };
+		81F327D41D83C72B00FBFEF3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F327D31D83C72B00FBFEF3 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		817E86EF1D82BE74007E24E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		817E86F21D82BE74007E24E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		817E86F41D82BE74007E24E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81F327CF1D83C71700FBFEF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81F327D11D83C72200FBFEF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		81F327D31D83C72B00FBFEF3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81F327D41D83C72B00FBFEF3 /* CoreData.framework in Frameworks */,
+				81F327D21D83C72200FBFEF3 /* UIKit.framework in Frameworks */,
+				81F327D01D83C71700FBFEF3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,7 @@
 		817E86D41D82BE73007E24E2 = {
 			isa = PBXGroup;
 			children = (
+				81F327D51D83C86B00FBFEF3 /* Frameworks */,
 				817E86DF1D82BE74007E24E2 /* CoreDataExample */,
 				817E86DE1D82BE74007E24E2 /* Products */,
 			);
@@ -60,6 +70,10 @@
 		817E86DF1D82BE74007E24E2 /* CoreDataExample */ = {
 			isa = PBXGroup;
 			children = (
+				817E86FD1D82BEC2007E24E2 /* API */,
+				817E86FC1D82BEB3007E24E2 /* Controller */,
+				817E86FB1D82BEAC007E24E2 /* View */,
+				817E86FA1D82BEA7007E24E2 /* Model */,
 				817E86E31D82BE74007E24E2 /* AppDelegate.h */,
 				817E86E41D82BE74007E24E2 /* AppDelegate.m */,
 				817E86E61D82BE74007E24E2 /* ViewController.h */,
@@ -80,6 +94,44 @@
 				817E86E11D82BE74007E24E2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		817E86FA1D82BEA7007E24E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		817E86FB1D82BEAC007E24E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		817E86FC1D82BEB3007E24E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		817E86FD1D82BEC2007E24E2 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		81F327D51D83C86B00FBFEF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81F327D31D83C72B00FBFEF3 /* CoreData.framework */,
+				81F327D11D83C72200FBFEF3 /* UIKit.framework */,
+				81F327CF1D83C71700FBFEF3 /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +358,7 @@
 				817E86F91D82BE74007E24E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

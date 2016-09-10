@@ -17,6 +17,62 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    //FIXME: - Core Data Code
+    
+    // Описание сущности
+    
+//    NSEntityDescription *entityDescription = [NSEntityDescription entityForName:@"Customer" inManagedObjectContext:self.managedObjectContext];
+//    
+//    // Создание нового объекта
+//    
+//    NSManagedObject *managedObject = [[NSManagedObject alloc] initWithEntity:entityDescription insertIntoManagedObjectContext:self.managedObjectContext];
+//    
+//    
+//    // Установка значения атрибута
+//    
+//    [managedObject setValue:@"ООО «Клубничка»" forKey:@"name"];
+//    
+//    // Извлечение значения атрибута
+//    
+//    NSString *name = [managedObject valueForKey:@"name"];
+//    
+//    NSLog(@"name = %@", name);
+//    
+////    [self.managedObjectContext save:nil];
+//    
+//    [self saveContext]; //сохранение контекста в случае изменения
+    
+    
+    
+    //получение сохраненного объекта
+    
+//    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"Customer"];
+    
+    
+//    @try {
+//        NSArray *results = [self.managedObjectContext executeFetchRequest:fetchRequest error:nil];
+//        
+//        for (NSManagedObject *item in results) {
+//            
+//            NSLog(@"item name = %@", [item valueForKey:@"name"]);
+//            
+////            [self.managedObjectContext deleteObject:item]; //удаление из БД
+////            [self saveContext];
+//
+//        }
+//        
+//    } @catch (NSException *exception) {
+//        
+//        NSLog(@"CoreData exception: %@", exception.description);
+//        
+//    }
+    
+    
+
+    
+    
     return YES;
 }
 
