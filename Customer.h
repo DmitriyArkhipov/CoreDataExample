@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
+#import "CoreDataStack.h"
+
 @class Order;
 
 NS_ASSUME_NONNULL_BEGIN

@@ -13,4 +13,20 @@
 
 // Insert code here to add functionality to your managed object subclass
 
+- (instancetype) init {
+    
+    NSManagedObjectContext *managedObjectContext = [CoreDataStack sharedInstance].managedObjectContext;
+    
+    NSEntityDescription *entityDescription = [NSEntityDescription entityForName:@"Customer" inManagedObjectContext:managedObjectContext];
+
+    self = [super initWithEntity:entityDescription insertIntoManagedObjectContext:managedObjectContext];
+
+    if (self) {
+        
+        NSLog(@"Customer init");
+    }
+
+    return self;
+}
+
 @end

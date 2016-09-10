@@ -25,6 +25,7 @@
 		81F327EE1D841C1200FBFEF3 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F327E41D841C1200FBFEF3 /* Customer.m */; };
 		81F327EF1D841C1200FBFEF3 /* Services+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F327E61D841C1200FBFEF3 /* Services+CoreDataProperties.m */; };
 		81F327F01D841C1200FBFEF3 /* Services.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F327E81D841C1200FBFEF3 /* Services.m */; };
+		81F327F31D84291700FBFEF3 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F327F21D84291700FBFEF3 /* CoreDataStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,8 @@
 		81F327E61D841C1200FBFEF3 /* Services+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Services+CoreDataProperties.m"; sourceTree = "<group>"; };
 		81F327E71D841C1200FBFEF3 /* Services.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Services.h; sourceTree = "<group>"; };
 		81F327E81D841C1200FBFEF3 /* Services.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Services.m; sourceTree = "<group>"; };
+		81F327F11D84291700FBFEF3 /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
+		81F327F21D84291700FBFEF3 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +163,8 @@
 		817E86FD1D82BEC2007E24E2 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				81F327F11D84291700FBFEF3 /* CoreDataStack.h */,
+				81F327F21D84291700FBFEF3 /* CoreDataStack.m */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 			files = (
 				81F327E91D841C1200FBFEF3 /* RowOrder+CoreDataProperties.m in Sources */,
 				817E86E81D82BE74007E24E2 /* ViewController.m in Sources */,
+				81F327F31D84291700FBFEF3 /* CoreDataStack.m in Sources */,
 				81F327EB1D841C1200FBFEF3 /* Order+CoreDataProperties.m in Sources */,
 				81F327ED1D841C1200FBFEF3 /* Customer+CoreDataProperties.m in Sources */,
 				817E86E51D82BE74007E24E2 /* AppDelegate.m in Sources */,
