@@ -111,4 +111,39 @@
     }
 }
 
+
+#pragma mark - New methods
+
+- (NSEntityDescription *) entityWithName:(NSString *)name {
+
+    NSEntityDescription *entityDescription = [NSEntityDescription entityForName:name inManagedObjectContext:self.managedObjectContext];
+    
+    return entityDescription;
+
+
+}
+
+
+#pragma mark - NSFetchedResultController initialisation
+
+- (NSFetchedResultsController *) fetchResultsControllerWithEntityName:(NSString *)entityName keyForSort:(NSString *)keyForSort {
+
+     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:entityName];
+    
+    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:keyForSort ascending:YES];
+
+
+    fetchRequest.sortDescriptors = @[sortDescriptor];
+    
+    NSFetchedResultsController *fetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:self.managedObjectContext sectionNameKeyPath:nil cacheName:nil];
+    
+    
+    return fetchedResultsController;
+}
+
+
+
+
+
+
 @end

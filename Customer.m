@@ -17,13 +17,13 @@
     
     NSManagedObjectContext *managedObjectContext = [CoreDataStack sharedInstance].managedObjectContext;
     
-    NSEntityDescription *entityDescription = [NSEntityDescription entityForName:@"Customer" inManagedObjectContext:managedObjectContext];
+    NSEntityDescription *entityDescription = [[CoreDataStack sharedInstance] entityWithName:@"Customer"];
 
     self = [super initWithEntity:entityDescription insertIntoManagedObjectContext:managedObjectContext];
 
     if (self) {
         
-        NSLog(@"Customer init");
+//        NSLog(@"Customer init");
     }
 
     return self;

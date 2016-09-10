@@ -43,22 +43,22 @@
 		81F327CF1D83C71700FBFEF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		81F327D11D83C72200FBFEF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		81F327D31D83C72B00FBFEF3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		81F327D91D841C1200FBFEF3 /* RowOrder+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RowOrder+CoreDataProperties.h"; sourceTree = "<group>"; };
-		81F327DA1D841C1200FBFEF3 /* RowOrder+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RowOrder+CoreDataProperties.m"; sourceTree = "<group>"; };
-		81F327DB1D841C1200FBFEF3 /* RowOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowOrder.h; sourceTree = "<group>"; };
-		81F327DC1D841C1200FBFEF3 /* RowOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowOrder.m; sourceTree = "<group>"; };
-		81F327DD1D841C1200FBFEF3 /* Order+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Order+CoreDataProperties.h"; sourceTree = "<group>"; };
-		81F327DE1D841C1200FBFEF3 /* Order+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Order+CoreDataProperties.m"; sourceTree = "<group>"; };
-		81F327DF1D841C1200FBFEF3 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
-		81F327E01D841C1200FBFEF3 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
-		81F327E11D841C1200FBFEF3 /* Customer+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Customer+CoreDataProperties.h"; sourceTree = "<group>"; };
-		81F327E21D841C1200FBFEF3 /* Customer+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Customer+CoreDataProperties.m"; sourceTree = "<group>"; };
-		81F327E31D841C1200FBFEF3 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
-		81F327E41D841C1200FBFEF3 /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
-		81F327E51D841C1200FBFEF3 /* Services+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Services+CoreDataProperties.h"; sourceTree = "<group>"; };
-		81F327E61D841C1200FBFEF3 /* Services+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Services+CoreDataProperties.m"; sourceTree = "<group>"; };
-		81F327E71D841C1200FBFEF3 /* Services.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Services.h; sourceTree = "<group>"; };
-		81F327E81D841C1200FBFEF3 /* Services.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Services.m; sourceTree = "<group>"; };
+		81F327D91D841C1200FBFEF3 /* RowOrder+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RowOrder+CoreDataProperties.h"; path = "../RowOrder+CoreDataProperties.h"; sourceTree = "<group>"; };
+		81F327DA1D841C1200FBFEF3 /* RowOrder+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RowOrder+CoreDataProperties.m"; path = "../RowOrder+CoreDataProperties.m"; sourceTree = "<group>"; };
+		81F327DB1D841C1200FBFEF3 /* RowOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RowOrder.h; path = ../RowOrder.h; sourceTree = "<group>"; };
+		81F327DC1D841C1200FBFEF3 /* RowOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RowOrder.m; path = ../RowOrder.m; sourceTree = "<group>"; };
+		81F327DD1D841C1200FBFEF3 /* Order+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Order+CoreDataProperties.h"; path = "../Order+CoreDataProperties.h"; sourceTree = "<group>"; };
+		81F327DE1D841C1200FBFEF3 /* Order+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Order+CoreDataProperties.m"; path = "../Order+CoreDataProperties.m"; sourceTree = "<group>"; };
+		81F327DF1D841C1200FBFEF3 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Order.h; path = ../Order.h; sourceTree = "<group>"; };
+		81F327E01D841C1200FBFEF3 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Order.m; path = ../Order.m; sourceTree = "<group>"; };
+		81F327E11D841C1200FBFEF3 /* Customer+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Customer+CoreDataProperties.h"; path = "../Customer+CoreDataProperties.h"; sourceTree = "<group>"; };
+		81F327E21D841C1200FBFEF3 /* Customer+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Customer+CoreDataProperties.m"; path = "../Customer+CoreDataProperties.m"; sourceTree = "<group>"; };
+		81F327E31D841C1200FBFEF3 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Customer.h; path = ../Customer.h; sourceTree = "<group>"; };
+		81F327E41D841C1200FBFEF3 /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Customer.m; path = ../Customer.m; sourceTree = "<group>"; };
+		81F327E51D841C1200FBFEF3 /* Services+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Services+CoreDataProperties.h"; path = "../Services+CoreDataProperties.h"; sourceTree = "<group>"; };
+		81F327E61D841C1200FBFEF3 /* Services+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Services+CoreDataProperties.m"; path = "../Services+CoreDataProperties.m"; sourceTree = "<group>"; };
+		81F327E71D841C1200FBFEF3 /* Services.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Services.h; path = ../Services.h; sourceTree = "<group>"; };
+		81F327E81D841C1200FBFEF3 /* Services.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Services.m; path = ../Services.m; sourceTree = "<group>"; };
 		81F327F11D84291700FBFEF3 /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
 		81F327F21D84291700FBFEF3 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,22 +80,6 @@
 		817E86D41D82BE73007E24E2 = {
 			isa = PBXGroup;
 			children = (
-				81F327D91D841C1200FBFEF3 /* RowOrder+CoreDataProperties.h */,
-				81F327DA1D841C1200FBFEF3 /* RowOrder+CoreDataProperties.m */,
-				81F327DB1D841C1200FBFEF3 /* RowOrder.h */,
-				81F327DC1D841C1200FBFEF3 /* RowOrder.m */,
-				81F327DD1D841C1200FBFEF3 /* Order+CoreDataProperties.h */,
-				81F327DE1D841C1200FBFEF3 /* Order+CoreDataProperties.m */,
-				81F327DF1D841C1200FBFEF3 /* Order.h */,
-				81F327E01D841C1200FBFEF3 /* Order.m */,
-				81F327E11D841C1200FBFEF3 /* Customer+CoreDataProperties.h */,
-				81F327E21D841C1200FBFEF3 /* Customer+CoreDataProperties.m */,
-				81F327E31D841C1200FBFEF3 /* Customer.h */,
-				81F327E41D841C1200FBFEF3 /* Customer.m */,
-				81F327E51D841C1200FBFEF3 /* Services+CoreDataProperties.h */,
-				81F327E61D841C1200FBFEF3 /* Services+CoreDataProperties.m */,
-				81F327E71D841C1200FBFEF3 /* Services.h */,
-				81F327E81D841C1200FBFEF3 /* Services.m */,
 				81F327D51D83C86B00FBFEF3 /* Frameworks */,
 				817E86DF1D82BE74007E24E2 /* CoreDataExample */,
 				817E86DE1D82BE74007E24E2 /* Products */,
@@ -163,6 +147,7 @@
 		817E86FD1D82BEC2007E24E2 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				81F327F41D8435AB00FBFEF3 /* CoreData Object Model */,
 				81F327F11D84291700FBFEF3 /* CoreDataStack.h */,
 				81F327F21D84291700FBFEF3 /* CoreDataStack.m */,
 			);
@@ -177,6 +162,29 @@
 				81F327CF1D83C71700FBFEF3 /* Foundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81F327F41D8435AB00FBFEF3 /* CoreData Object Model */ = {
+			isa = PBXGroup;
+			children = (
+				81F327D91D841C1200FBFEF3 /* RowOrder+CoreDataProperties.h */,
+				81F327DA1D841C1200FBFEF3 /* RowOrder+CoreDataProperties.m */,
+				81F327DB1D841C1200FBFEF3 /* RowOrder.h */,
+				81F327DC1D841C1200FBFEF3 /* RowOrder.m */,
+				81F327DD1D841C1200FBFEF3 /* Order+CoreDataProperties.h */,
+				81F327DE1D841C1200FBFEF3 /* Order+CoreDataProperties.m */,
+				81F327DF1D841C1200FBFEF3 /* Order.h */,
+				81F327E01D841C1200FBFEF3 /* Order.m */,
+				81F327E11D841C1200FBFEF3 /* Customer+CoreDataProperties.h */,
+				81F327E21D841C1200FBFEF3 /* Customer+CoreDataProperties.m */,
+				81F327E31D841C1200FBFEF3 /* Customer.h */,
+				81F327E41D841C1200FBFEF3 /* Customer.m */,
+				81F327E51D841C1200FBFEF3 /* Services+CoreDataProperties.h */,
+				81F327E61D841C1200FBFEF3 /* Services+CoreDataProperties.m */,
+				81F327E71D841C1200FBFEF3 /* Services.h */,
+				81F327E81D841C1200FBFEF3 /* Services.m */,
+			);
+			name = "CoreData Object Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

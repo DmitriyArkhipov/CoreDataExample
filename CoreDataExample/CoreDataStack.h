@@ -20,4 +20,6 @@
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 
+- (NSEntityDescription *) entityWithName:(NSString *)name;
+
 @end
